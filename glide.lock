@@ -1,0 +1,56 @@
+hash: 78f0c7853d416ebdc9598d3893b95bd6520275925bb5d2dfb321c1d527bb0913
+updated: 2016-12-07T15:36:34.471552637+08:00
+imports:
+- name: github.com/AcalephStorage/rudder
+  version: 3776239b35d5910e31120a766d5fb7289237c2df
+  subpackages:
+  - internal/util
+- name: github.com/coreos/go-oidc
+  version: 8472879a4fc0182e34ed1a1edf711625a9c9fab2
+- name: github.com/emicklei/go-restful
+  version: 777bb3f19bcafe2575ffb2a3e46af92509ae9594
+  subpackages:
+  - log
+- name: github.com/ghodss/yaml
+  version: a54de18a07046d8c4b26e9327698a2ebb9285b36
+- name: github.com/golang/protobuf
+  version: df1d3ca07d2d07bba352d5b73c4313b4e2a6203e
+  subpackages:
+  - proto
+- name: github.com/pquerna/cachecontrol
+  version: c97913dcbd76de40b051a9b4cd827f7eaeb7a868
+  subpackages:
+  - cacheobject
+- name: github.com/Sirupsen/logrus
+  version: 4b6ea7319e214d98c938f12692336f7ca9348d6b
+- name: golang.org/x/net
+  version: fb93926129b8ec0056f2f458b1f519654814edf0
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: d5040cddfc0da40b408c9a1da4728662435176a9
+  subpackages:
+  - internal
+- name: golang.org/x/sys
+  version: c200b10b5d5e122be351b67af224adc6128af5bf
+  subpackages:
+  - unix
+- name: google.golang.org/appengine
+  version: ca59ef35f409df61fa4a5f8290ff289b37eccfb8
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/square/go-jose.v2
+  version: 296c7f1463ec9b712176dc804dea0173d06dc728
+  subpackages:
+  - cipher
+  - json
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports: []

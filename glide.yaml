@@ -1,0 +1,10 @@
+package: github.com/AcalephStorage/go-auth
+import:
+- package: github.com/emicklei/go-restful
+  version: ~1.2.0
+  subpackages:
+- package: github.com/Sirupsen/logrus
+  version: ~0.10.0
+- package: github.com/coreos/go-oidc
+- package: gopkg.in/square/go-jose.v2
+  version: ~2.0.1
